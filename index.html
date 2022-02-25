@@ -3,15 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Travel Site Homepage</title>
 </head>
 <body>
+<!-- header section starting -->
   <header>
+    <h1>
+      <a href="./index.html" class="header__button--home">Travel Site</a>
+    </h1>
     <nav>
-      <a href="./index.html">Travel Site</a>
+      <a class="nav__link nav__link--active" href="#">Home</a>
+      <a class="nav__link" href="./pages/hawaii.html">Hawaii</a>
+      <a class="nav__link" href="./pages/iceland.html">Iceland</a>
+      <a class="nav__link" href="./pages/greece.html">Greece</a>
     </nav>
-
   </header>
-  
+<!-- header section ending -->
+<!-- main section starting -->
+  <main>
+    <section class="main__layout--primary">
+      <div class="main__container--primary">
+        <h1 class="main__title">Travelling Comes With Endless Discoveries</h1>
+        <p class="main__text">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+        <a class="main__button" href="#">Get started</a>
+      <div class="section__img"></div>
+    </div>
+    </section>
+    <section class="main__layout--secondary">
+      <h1 class="card__title">Recommendations</h1>
+      <div class="card__layout">
+        <div class="card__properties card__properties--hawaii">
+          <h1 class="card__text">Hawaii</h1>
+        </div>
+        <div class="card__properties card__properties--iceland">
+          <h1 class="card__text">Iceland</h1>
+        </div>
+        <div class="card__properties card__properties--greece">
+        <h1 class="card__text">Greece</h1>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- main section ending -->
+<!-- footer section starting -->
+  <footer>
+    <section>
+      <h1 class="footer__title">Contact</h1>
+      <div class="footer--align">
+        <h4 class="footer__subheader">EMAIL</h4>
+        <p class="footer__text">info@travelsite.com</p>
+      </div>
+    </section>
+    <section>
+      <h1 class="footer__title">Hours</h1>
+      <div class="footer--align">
+        <h4 class="footer__subheader">MONDAY - FRIDAY</h4>
+        <p class="footer__text">9:00 AM - 5:00 PM</p>
+      </div>
+        <div class="footer--align"> 
+          <h4 class="footer__subheader">SATURDAY</h4>
+          <p class="footer__text">10:00 AM - 4:00 PM</p>
+      </div>
+      <div class="footer--align">
+        <h4 class="footer__subheader">SUNDAY</h4>
+        <p class="footer__text">Closed</p>
+      </div>    
+    </section>
+    <section>
+      <h1 class="footer__title">Social</h1>
+      <a class="footer__link" href="https://instagram.com">
+        <img class="footer__icon--size" src="./assets/Icons/icon-instagram.png" alt="instagram">
+      </a>
+      <a class="footer__link" href="https://facebook.com">
+        <img class="footer__icon--size" src="./assets/Icons/icon-facebook.png" alt="facebook">
+      </a>
+      <a class="footer__link" href="https://twitter.com">
+        <img class="footer__icon--size" src="./assets/Icons/icon-twitter.png" alt="twitter">
+      </a>
+    </section>
+  </footer>
+<!-- footer section ending -->
 </body>
 </html>

@@ -24,12 +24,6 @@
   border-bottom: 2px solid black;
 }
 
-.header__button--home {
-  text-decoration: none;
-  color: #335576;
-  font-size: 65%;
-}
-
 .main__image--iceland {
   background-image: url(../assets/Images/iceland.jpg);
   width: 100%;
@@ -62,16 +56,4 @@
   color: #FFFFFF;
   padding-left: 6rem;
   padding-top: 5rem;
-}
-
-.nav__link {
-  font-size: 90%;
-  text-decoration: none;
-  color: black;
-  margin-right: 1rem;
-}
-
-.nav__link--active {
-  padding-bottom: 0.5rem;
-  border-bottom: 4px solid #DB7A4E;
 }
