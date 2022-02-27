@@ -1,0 +1,41 @@
+main {
+  background-color: #FEFAF5;
+}
+
+h1,h3,p {
+  color: #335576;
+}
+
+.main__container {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  margin-left: 4rem;
+  width: 37%;
+}
+
+.form__layout {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem 0 4rem 4rem;
+}
+
+label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  font-size: 1.25rem;
+  width: 7rem;
+  height: 2rem;
+}
+
+.section__img {
+  position: absolute;
+  top: 27rem;
+  right: 6rem;
+  height: 45%;
+  width: 40%;
+}

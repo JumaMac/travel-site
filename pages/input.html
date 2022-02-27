@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/input.css">
+  <title>Booking</title>
+</head>
+<body>
+  <!-- header section starting -->
+  <header>
+    <h1>
+      <a href="../index.html" class="header__button--home">Travel Site</a>
+    </h1>
+    <nav>
+      <a class="nav__link" href="../index.html">Home</a>
+      <a class="nav__link" href="./hawaii.html">Hawaii</a>
+      <a class="nav__link" href=".iceland.html">Iceland</a>
+      <a class="nav__link" href="./greece.html">Greece</a>
+    </nav>
+  </header>
+<!-- header section ending -->
+<!-- empty space between fixed header and main content -->
+  <div class="header__space"></div>
+<!-- main section starting -->
+<main>
+  <div class="main__container">
+    <h1>Book With Us Now</h1>
+    <p>Address: 1401 Big Brain Ave, Brainstation, CAN, B1G B5N </p>
+    <p>Email: info@travelsite.com</p>
+    <h3>Safe Travels!</h3>
+  </div>
+  <form class="form__layout" action="mailto:info@travelsite.com" method="post" enctype="text/plain">
+    <label for="firstName">First Name:</label>
+    <input type="text" name="firstName" id="firstName" size="25">
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="lastName" id="lastName" size="25">
+    <label for="yourEmail">Email:</label>
+    <input type="email" name="yourEmail" id="yourEmail" size="25" required>
+    <label for="destination">Destination</label>
+    <select name="destination">
+      <option value="Hawaii">Hawaii</option>
+      <option value="Iceland">Iceland</option>
+      <option value="Greece">Greece</option>
+    </select>
+    <label for="yourMessage">Your Message:</label>
+    <textarea name="yourMessage" rows="15" cols="50"></textarea>
+    <input type="submit" name="">
+  </form>
+  <img class="section__img" src="../assets/Images/hero.png" alt="flying">
+</main>
+
+
+<!-- main section ending -->
+<!-- footer section starting -->
+<footer>
+  <section>
+    <h2 class="footer__title">Contact</h2>
+    <div class="footer--align">
+      <h4 class="footer__subheader">EMAIL</h4>
+      <p class="footer__text">info@travelsite.com</p>
+    </div>
+  </section>
+  <section>
+    <h2 class="footer__title">Hours</h2>
+    <div class="footer--align">
+      <h4 class="footer__subheader">MONDAY - FRIDAY</h4>
+      <p class="footer__text">9:00 AM - 5:00 PM</p>
+    </div>
+      <div class="footer--align"> 
+        <h4 class="footer__subheader">SATURDAY</h4>
+        <p class="footer__text">10:00 AM - 4:00 PM</p>
+    </div>
+    <div class="footer--align">
+      <h4 class="footer__subheader">SUNDAY</h4>
+      <p class="footer__text">Closed</p>
+    </div>    
+  </section>
+  <section>
+    <h2 class="footer__title">Social</h2>
+    <a class="footer__link" href="https://instagram.com">
+      <img class="footer__icon--size" src="../assets/Icons/icon-instagram.png" alt="instagram">
+    </a>
+    <a class="footer__link" href="https://facebook.com">
+      <img class="footer__icon--size" src="../assets/Icons/icon-facebook.png" alt="facebook">
+    </a>
+    <a class="footer__link" href="https://twitter.com">
+      <img class="footer__icon--size" src="../assets/Icons/icon-twitter.png" alt="twitter">
+    </a>
+  </section>
+</footer>
+<!-- footer section ending -->
+
+
+</body>
+</html>
