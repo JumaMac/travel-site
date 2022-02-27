@@ -32,6 +32,16 @@ header {
   font-size: 65%;
 }
 
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav__list--item {
+  margin-right: 0.5rem;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
